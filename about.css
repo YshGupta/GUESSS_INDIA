@@ -1,0 +1,82 @@
+.myStyle {
+    align-content: flex;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    height:fit-content;
+  }
+ 
+.div-container{
+    display: flexbox;
+}
+
+.gridbox{
+    margin-top: 10px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center  */
+}
+
+body{
+    /* padding: 0px 50px 50px 50px; */
+    height: fit-content;
+    padding-top: 0px;
+    margin: 0;
+}
+.heading{
+    color: green;
+}
+.center-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 100vh; Adjust this to the desired height */
+  }
+
+.navbar {
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+/* Increase the font size of the navbar links */
+.navbar-nav .nav-link {
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+.text{
+    max-height: 50%;
+    max-width: 95%;
+    align-items: flex-start;
+}
+
+.im{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.im2{
+    max-height: 90%;
+    max-width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+
+.justify-text{
+    text-align: justify;
+    max-height: 100%;
+    max-width: 97%;
+}
+.justify-text2{
+    text-align: justify;
+    max-height: 100%;
+    max-width: 100%;
+}
+.image-container{
+    align-content: flex-end;
+}
+
+
+

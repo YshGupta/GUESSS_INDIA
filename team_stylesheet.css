@@ -1,0 +1,51 @@
+body {
+    background: #eee;
+  }
+  
+  .name {
+    color: green;
+  }
+  
+  .work {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .about span {
+    font-size: 13px;
+  }
+  
+  .v-profile {
+    color: green;
+    cursor: pointer;
+  }
+  
+  .box {
+    -webkit-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+    -moz-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+    box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+  }
+  
+  .col-md-4{
+    margin-top: 10px;
+  }
+
+  .container1{
+    margin: 0 30px 0 30px;
+  }
+
+  .rounded {
+    border-radius: 1.3rem !important;
+  }
+
+
+  .horizontal-line {
+    border-top: 1px solid #000; /* Set the line color and style */
+    margin: 20px 0; /* Add some spacing above and below the line */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.heading_title{
+  font-size: 600;
+}
