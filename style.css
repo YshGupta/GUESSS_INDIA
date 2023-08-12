@@ -149,6 +149,7 @@ input:checked + .slide-container .nav label { display: block; }
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 
 .cards_item {
@@ -569,7 +570,7 @@ hr {
 }
 
 .main{
-  height: 50vh;
+  height: 500px;
 }
 .hover-effect1 {
   min-height: 20px;
