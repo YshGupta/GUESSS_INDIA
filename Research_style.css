@@ -1,0 +1,156 @@
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex-basis: 100%;
+    }
+}
+
+
+.container2{
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container2 {
+        padding: 10px;
+    }
+}
+
+.custom-underline {
+  position: relative; /* Position relative for the .custom-underline */
+  display: inline-block; /* Make the .custom-underline behave like a block-level element */
+  line-height: 1.5; /* Adjust line height to control the distance */
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust the distance from the text */
+  width: 100%;
+  border-bottom: 1px solid #000; /* The underline style */
+}
+
+
+
+/*  */
+#app {
+  padding: 50px 0;
+}
+.timeline {
+  margin: 50px 0;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  text-align: center;
+}
+.timeline li {
+  transition: all 200ms ease-in;
+}
+.timestamp {
+  width: 100%; 
+  margin-bottom: 20px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100; 
+}
+.status {
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  border-top: 4px solid #3e70ff;
+  position: relative;
+  transition: all 200ms ease-in ;
+}
+  
+.status span {
+  font-weight: 600;
+  padding-top: 20px;
+}
+.status span:before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: #e8eeff;
+  border-radius: 25px;
+  border: 4px solid #3e70ff;
+  position: absolute;
+  top: -15px;
+  left: calc(50% - 12px); 
+  transition: all 200ms ease-in;
+}
+.swiper-control {
+  text-align: right;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 250px;
+  margin: 50px 0;
+  overflow: hidden;
+  padding: 0 20px 30px 20px;
+}
+.swiper-slide {
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+}
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+}
