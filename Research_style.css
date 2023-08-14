@@ -9,7 +9,7 @@
     padding-left: 0px;
 }
 
-.card {
+.card1 {
     flex-basis: calc(33.33% - 20px);
     margin-bottom: 20px;
     display: flex;
@@ -20,14 +20,14 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+.card1 img {
     max-width: 50%;
     height: auto;
     margin-right: 20px;
     border-radius: 8px;
 }
 
-.card-content {
+.card-content1 {
     flex-grow: 1;
 }
 
@@ -154,3 +154,6 @@
 .swiper-slide:nth-child(3n) {
   width: 40%;
 }
+
+
+/* past */
