@@ -17,6 +17,7 @@ div{
     display: flex;
     /* align-items: center; */
     /* justify-content: center  */
+    flex-direction: column;
 }
 
 body{
@@ -45,7 +46,11 @@ body{
     font-size: 20px; /* Adjust the font size as needed */
 }
 
-.text{
+.container{
+    display: block;
+}
+
+.text theek{
     max-height: 100%;
     max-width: 100%;
     align-items: flex-start;
@@ -53,11 +58,46 @@ body{
     padding-left: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .hr{
+        padding-bottom: 10px;
+    }
+    .im{
+        max-height: 100%;
+        max-width: 100%;
+        margin-top: 10%;
+        display: grid;
+        justify-items: center;
+        display: inline-flex;
+    }
+    .text theek{
+        max-height: 100%;
+        max-width: 100%;
+        align-items: flex-start;
+        width: 400%;
+        padding-left: 20px;
+    }
+    .gridbox{
+        max-width: 100%;
+    }
+    .cards{
+        max-width: 100%;
+    }
+    .cards_item{
+        max-width: 100%;
+    }
+    .footing{
+        padding-top: 5%;
+    }
+  }
+  
+
 .im{
-    max-height: 92%;
-    max-width: 65%;
-    margin-left: 100px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 2%;
     display: grid;
+    justify-items: center;
 }
 .im2{
     max-height: 90%;
