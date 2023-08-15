@@ -257,8 +257,8 @@ input:checked + .slide-container .nav label { display: block; }
   margin: 0 0 24px;
   padding-bottom: 10px;
   text-align: center;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 .card_title::after {
@@ -281,8 +281,9 @@ hr {
 
 .card_text p {
   margin: 0 0 24px;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.5;
+  text-align: center;
 }
 
 .card_text p:last-child {
@@ -617,3 +618,28 @@ hr {
  transform: rotate(360deg);
 }
 
+/*15 aug */
+.container_all{
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.3em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-underline {
+  position: relative; /* Position relative for the .custom-underline */
+  display: inline-block; /* Make the .custom-underline behave like a block-level element */
+  line-height: 1.5; /* Adjust line height to control the distance */
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust the distance from the text */
+  width: 100%;
+  border-bottom: 1px solid #000; /* The underline style */
+}
