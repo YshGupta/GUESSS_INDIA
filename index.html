@@ -8,206 +8,204 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
 </head>
 
 <body>
 
   <nav class="navbar">
-    <div class="navbar-container container" style="height: 200px;">
-        <ul class="menu-items">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Research.html">Research</a></li>
-            <li><a href="Team.html">Team</a></li>
-            <li><a href="collaborate.html">Collabrate</a></li>
-            <!-- <li><a href="Contact.html">Contact us</a></li> -->
-        </ul>
-        <div class="center-container" style="width: 200px;">
-            <img src="logo.png" style=" align-items: left; height: 150px;" />
-        </div>
-    </div>
-</nav>
-
-
-    <br><br><br>
-    <div container2>
-      <div class="carousel">
-        <ul class="slides">
-          <input type="radio" name="radio-buttons" id="img-1" checked />
-          <li class="slide-container">
-            <div class="slide-image">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
-            </div>
-            <div class="carousel-controls">
-              <label for="img-3" class="prev-slide">
-                <span>&lsaquo;</span>
-              </label>
-              <label for="img-2" class="next-slide">
-                <span>&rsaquo;</span>
-              </label>
-            </div>
-          </li>
-          <input type="radio" name="radio-buttons" id="img-2" />
-          <li class="slide-container">
-            <div class="slide-image">
-              <img
-                src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true">
-            </div>
-            <div class="carousel-controls">
-              <label for="img-1" class="prev-slide">
-                <span>&lsaquo;</span>
-              </label>
-              <label for="img-3" class="next-slide">
-                <span>&rsaquo;</span>
-              </label>
-            </div>
-          </li>
-          <input type="radio" name="radio-buttons" id="img-3" />
-          <li class="slide-container">
-            <div class="slide-image">
-              <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
-            </div>
-            <div class="carousel-controls">
-              <label for="img-2" class="prev-slide">
-                <span>&lsaquo;</span>
-              </label>
-              <label for="img-1" class="next-slide">
-                <span>&rsaquo;</span>
-              </label>
-            </div>
-          </li>
-          <div class="carousel-dots">
-            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-          </div>
-        </ul>
+    <a href="javascript:void(0);" class="icon fixed gayab" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    <div class="navbar-container container" id = "navbar-container" style="height: 100px;">
+      <div class="center-container">
+        <img src="logo.png" class="image-logo1"/>
       </div>
-    </div>
-
-    <br><br>
-
-    <div class="container_all">
-      <h1 style="text-align: center;" class="mb-3 custom-underline ">GUESSS India Highlights
-      </h1>
-      <ul class="cards">
-        <li class="cards_item">
-          <div class="card">
-
-            <div class="card_content">
-              <h2 class="card_title">7000+ Universities</h2>
-              <div class="card_text">
-                <!-- <p>Fostering Research in Student Entrepreneurship spirit</p> -->
-                <!-- <p>Research in Student Entrepreneurship</p> -->
-                <!-- <p>Spirit</p> -->
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li class="cards_item">
-          <div class="card">
-
-            <div class="card_content">
-              <h2 class="card_title">8 Geographical Zones</h2>
-              <div class="card_text">
-                <!-- <p>Knowledge creation and Actionable Insights
-                </p> -->
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li class="cards_item">
-          <div class="card">
-
-            <div class="card_content">
-              <h2 class="card_title">3.5 lacs Expected Participation</h2>
-              <div class="card_text">
-                <!-- <p>Impact through Actionable Insights
-                </p> -->
-              </div>
-            </div>
-          </div>
-        </li>
+      <ul class="menu-items" id = "menu-items">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Research.html">Research</a></li>
+        <li><a href="Team.html">Team</a></li>
+        <li><a href="collaborate.html">Collaborate</a></li>
+        <li><a href="Contact.html">Contact us</a></li>
       </ul>
     </div>
-  
-    <div class="container_all">
-      <p  style="padding-left: 20px;">Welcome to GUESSS India – an initiative to foster the Indian student
-        entrepreneurship ecosystem through research and collaboration.
-        We're on a mission to unravel the aspirations, motivations, and innovations driving student-led ventures
-        across the nation.
-        At the heart of GUESSS India lies an intricate exploration of research topics that unravel the complex web of
-        factors influencing student entrepreneurship.
-         Our aim is not only to understand the current landscape but also to contribute to a deeper comprehension of
-        how educational institutions, cultural factors, and economic conditions shape the entrepreneurial spirit.
-      </p>
-      <br>
+  </nav>
 
-      <p style="padding-left: 20px;">At the heart of GUESSS India lies an intricate exploration of research topics that unravel the complex web of factors influencing student entrepreneurship. Our aim is not only to understand the current landscape but also to contribute to a deeper comprehension of how educational institutions, cultural factors, and economic conditions shape the entrepreneurial spirit.</p>
-    </div>
 
-    <div class="main container_all" >
-      <ul class="cards">
-        <li class="cards_item">
-          <div class="card">
-
-            <div class="card_content">
-              <h2 class="card_title">Research</h2>
-              <div class="card_text">
-                <p>Fostering Research in Student Entrepreneurship spirit</p>
-                <!-- <p>Research in Student Entrepreneurship</p> -->
-                <!-- <p>Spirit</p> -->
-              </div>
-            </div>
+  <br><br><br>
+  <div container2>
+    <div class="carousel">
+      <ul class="slides">
+        <input type="radio" name="radio-buttons" id="img-1" checked />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-3" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-2" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
           </div>
         </li>
-
-        <li class="cards_item">
-          <div class="card">
-
-            <div class="card_content">
-              <h2 class="card_title">Insights</h2>
-              <div class="card_text">
-                <p>Knowledge creation and Actionable Insights
-                </p>
-              </div>
-            </div>
+        <input type="radio" name="radio-buttons" id="img-2" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img
+              src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-1" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-3" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
           </div>
         </li>
-
-        <li class="cards_item">
-          <div class="card">
-
-            <div class="card_content">
-              <h2 class="card_title">Impact</h2>
-              <div class="card_text">
-                <p>Impact through Actionable Insights
-                </p>
-              </div>
-            </div>
+        <input type="radio" name="radio-buttons" id="img-3" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-2" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-1" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
           </div>
         </li>
+        <div class="carousel-dots">
+          <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+          <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+          <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+        </div>
       </ul>
     </div>
+  </div>
+
+  <br><br>
+
+  <div class="container_all">
+    <h1 style="text-align: center;" class="mb-3 custom-underline ">GUESSS India Highlights
+    </h1>
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+
+          <div class="card_content">
+            <h2 class="card_title">7000+ Universities</h2>
+            <div class="card_text">
+              <!-- <p>Fostering Research in Student Entrepreneurship spirit</p> -->
+              <!-- <p>Research in Student Entrepreneurship</p> -->
+              <!-- <p>Spirit</p> -->
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="cards_item">
+        <div class="card">
+
+          <div class="card_content">
+            <h2 class="card_title">8 Geographical Zones</h2>
+            <div class="card_text">
+              <!-- <p>Knowledge creation and Actionable Insights
+                </p> -->
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="cards_item">
+        <div class="card">
+
+          <div class="card_content">
+            <h2 class="card_title">3.5 lacs Expected Participation</h2>
+            <div class="card_text">
+              <!-- <p>Impact through Actionable Insights
+                </p> -->
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container_all">
+    <p style="padding-left: 20px;">Welcome to GUESSS India – an initiative to foster the Indian student
+      entrepreneurship ecosystem through research and collaboration.
+      We're on a mission to unravel the aspirations, motivations, and innovations driving student-led ventures
+      across the nation.
+      At the heart of GUESSS India lies an intricate exploration of research topics that unravel the complex web of
+      factors influencing student entrepreneurship.
+      Our aim is not only to understand the current landscape but also to contribute to a deeper comprehension of
+      how educational institutions, cultural factors, and economic conditions shape the entrepreneurial spirit.
+    </p>
+    <br>
+
+    <p style="padding-left: 20px;">At the heart of GUESSS India lies an intricate exploration of research topics that
+      unravel the complex web of factors influencing student entrepreneurship. Our aim is not only to understand the
+      current landscape but also to contribute to a deeper comprehension of how educational institutions, cultural
+      factors, and economic conditions shape the entrepreneurial spirit.</p>
+  </div>
+
+  <div class="main container_all">
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+
+          <div class="card_content">
+            <h2 class="card_title">Research</h2>
+            <div class="card_text">
+              <p>Fostering Research in Student Entrepreneurship spirit</p>
+              <!-- <p>Research in Student Entrepreneurship</p> -->
+              <!-- <p>Spirit</p> -->
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="cards_item">
+        <div class="card">
+
+          <div class="card_content">
+            <h2 class="card_title">Insights</h2>
+            <div class="card_text">
+              <p>Knowledge creation and Actionable Insights
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="cards_item">
+        <div class="card">
+
+          <div class="card_content">
+            <h2 class="card_title">Impact</h2>
+            <div class="card_text">
+              <p>Impact through Actionable Insights
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
   <!-- </div> -->
 
 
-  <footer
-          class="text-center text-lg-start text-dark"
-          style="background-color: #ECEFF1"
-          >
+  <footer class="text-center text-lg-start text-dark footing" style="background-color: #ECEFF1">
     <!-- Section: Social media -->
-    <section
-             class="d-flex justify-content-between p-4 text-white"
-             style="background-color: #21D192"
-             >
+    <section class="d-flex justify-content-between p-4 text-white" style="background-color: #21D192">
       <!-- Left -->
       <div class="me-5">
       </div>
@@ -247,10 +245,7 @@
           <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
             <!-- Content -->
             <h6 class="text-uppercase fw-bold">GUESSS India</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing
               elit.
@@ -259,16 +254,13 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-         
+
 
           <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-4 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold">Join Us</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
             <p>
               <a href="collaborate.html" class="text-dark">Become a Partner</a>
             </p>
@@ -278,16 +270,14 @@
             <p>
               <a href="Research.html" class="text-dark">Research</a>
             </p>
-            
+
           </div>
           <div class="col-md-3 col-lg-2 col-xl-4 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold">Contact Us</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-                <p style="width: 350px;"> A 10, 404<br>School of Management<br>Indian Institute of Technology Mandi<br>Himachal Pradesh<br>175005</p>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+            <p style="width: 350px;"> A 10, 404<br>School of Management<br>Indian Institute of Technology
+              Mandi<br>Himachal Pradesh<br>175005</p>
           </div>
           <!-- Grid column -->
           <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -300,37 +290,35 @@
             <p><i class="fas fa-envelope mr-3"></i><a href="mailto: guessindia@gmail.com">guessindia@gmail.com</a></p>
             
           </div> -->
-          
-          
+
+
           <!-- Grid column -->
-         
+
           <!-- Grid column -->
         </div>
         <!-- Grid row -->
-       
+
       </div>
     </section>
     <!-- Section: Links  -->
 
     <!-- Copyright -->
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-         <p><i class="fas fa-envelope mr-3"></i><a href="mailto: guessindia@gmail.com">guessindia@gmail.com</a></p>
-        
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      <p><i class="fas fa-envelope mr-3"></i><a href="mailto: guessindia@gmail.com">guessindia@gmail.com</a></p>
+
     </div>
     <!-- Copyright -->
   </footer>
 
 
 
-  <script src="script.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+  crossorigin="anonymous"></script>
+  <script language="JavaScript" type="text/javascript" src="script.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
