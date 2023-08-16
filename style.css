@@ -435,6 +435,7 @@ hr {
     color: #000;
     opacity: 0.85;
     z-index: 100;
+    padding: 2.5rem !important;
 }
 
 .navbar-container{
@@ -604,7 +605,7 @@ hr {
     }
 
     .container{
-      display: flex'
+      display: flex;
     }
 }
 @media screen and (max-width: 600px) {
@@ -625,7 +626,7 @@ hr {
 }
 
 .main{
-  height: 500px;
+  height: 300px;
 }
 .hover-effect1 {
   min-height: 20px;
