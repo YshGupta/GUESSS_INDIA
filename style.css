@@ -18,7 +18,8 @@ body{
 .image-logo1{
   align-items: left; 
   height: 100%; 
-  width: 100%
+  width: 484px;
+    padding-bottom: 35px;
 }
 .carousel {
   margin-left: 15%;
@@ -50,7 +51,8 @@ ul.slides input {
 
 
 .slide-container { 
-  display: block; 
+  display: block;
+  /* position: relative;  */
 }
 
 .slide-image {
@@ -271,7 +273,28 @@ input:checked + .slide-container .nav label { display: block; }
   font-weight: 500;
 }
 
+.card_title_home {
+  position: relative;
+  margin: 0 0 24px;
+  padding-bottom: 10px;
+  text-align: center;
+  /* font-size: 1.5em; */
+  font-weight: 500;
+}
+
+
 .card_title::after {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #c89b3f;
+  content: "";
+}
+.card_title_home::after {
   position: absolute;
   display: block;
   width: 50px;
@@ -700,7 +723,7 @@ hr {
   left: 0px;
   bottom: -2px; /* Adjust the distance from the text */
   width: 100%;
-  border-bottom: 1px solid #000; /* The underline style */
+  border-bottom: 1px solid green; /* The underline style */
 }
 
 .custom-underline::after {
@@ -709,7 +732,7 @@ hr {
   left: 0;
   bottom: -2px; /* Adjust the distance from the text */
   width: 100%;
-  border-bottom: 1px solid #000; /* The underline style */
+  border-bottom: 1px solid green; /* The underline style */
 }
 
 
@@ -746,3 +769,57 @@ hr {
  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 } */
+
+.text_over_image{
+  position: absolute;
+  top: 1000px;
+}
+
+
+.flex-container_spon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  max-width: 1000px;
+}
+
+.flex-item_spon {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  width: 8%;
+}
+
+.container_spons {
+ display: flex;
+ /* flex-direction: row; */
+ justify-content: space-evenly;
+ align-items:center;
+ /* min-height: 100vh; */
+ background-color: #ffffff;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  /* font-size: 1.3em; */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.container_spons_next {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items:center;
+  /* min-height: 100vh; */
+  background-color: #ffffff;
+   max-width: 1200px;
+   margin: 20px auto;
+   padding: 20px;
+   /* font-size: 1.3em; */
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+ }

@@ -1,150 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="spon.css">
+<title>Flex Container with Variable-sized Images</title>
+</head>
+<body>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fody Slider</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="spon.css">
+  <div class="container_spons">
+    <div class="flex-container_spon" id="image-container_spon">
+      <img src="1.jpg" alt="Image 1" class="flex-item_spon">
+      <img src="1.jpg" alt="Image 2" class="flex-item_spon">
+      <img src="1.jpg" alt="Image 3" class="flex-item_spon">
+      <img src="1.jpg" alt="Image 4" class="flex-item_spon">
+      <img src="1.jpg" alt="Image 5" class="flex-item_spon">
+    </div>
+  </div>
 
-  </head>
 
-  <body>
-    <section id="tranding">
-      <div class="container">
-        <h1 class="text-center section-heading">Sponsors</h1>
-      </div>
-      <div class="container">
-        <div class="swiper tranding-slider">
-          <div class="swiper-wrapper">
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="2.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">
-                    Sponsor 1
-                  </h2>
-                  
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="1.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">
-                    Sponsor 2
-                  </h2>
-                  
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="1.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">
-                    Sponsor 3
-                  </h2>
-                  
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="1.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">
-                    Sponsor 4
-                  </h2>
-                  
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="1.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">
-                    Sponsor 5
-                  </h2>
-                  
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="1.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">
-                    Sponsor 6
-                  </h2>
-                  
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="1.jpg" alt="Tranding">
-              </div>
-              <div class="tranding-slide-content">
-                <div class="tranding-slide-content-bottom">
-                  <h2 class="food-name">
-                    Sponsor 7
-                  </h2>
-                  
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <!-- Slide-end -->
-          </div>
-
-          <div class="tranding-slider-control">
-            <div class="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </div>
-            <div class="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="spon.js"></script>
-  </body>
-
+<script src="script.js"></script>
+</body>
 </html>
