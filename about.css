@@ -64,6 +64,16 @@ body{
     
 }
 
+.container_team_about{
+    background-color: #ffffff;
+    max-width: 1200px;
+    padding: 20px;
+    font-size: 1.3em;   
+    display: flex;
+    align-items: center;    
+    text-align: justify;
+}
+
 .justify-text{
     text-align: justify;
     max-height: 100%;
