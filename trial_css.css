@@ -63,7 +63,7 @@ body {
 }
 
 .container {
-  max-width: 124rem;
+  max-width: 94rem;
   padding: 0 1rem;
   margin: 0 auto;
   /* margin: auto 30px auto 30px; */
@@ -90,7 +90,7 @@ body {
 }
 
 #tranding .tranding-slider {
-  height: 52rem;
+  height: 33rem;
   padding: 2rem 0;
   position: relative;
 }
@@ -119,8 +119,8 @@ body {
 }
 
 .tranding-slide .tranding-slide-img img {
-  width: 37rem;
-  height: 42rem;
+  width: 20rem;
+  height: 18rem;
   border-radius: 2rem;
   object-fit: cover;
 }
@@ -131,6 +131,10 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
+  width: 20rem;
+  height: 18rem;
+  border-radius: 2rem;
+  object-fit: cover;
 }
 
 .tranding-slide-content .food-price {
