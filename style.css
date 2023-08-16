@@ -294,7 +294,7 @@ hr {
   /* font-size: 1.5rem; */
   line-height: 1.5;
   text-align: center;
-
+  padding: 40px;
 }
 
 .card_text p:last-child {
@@ -607,6 +607,9 @@ hr {
     .container{
       display: flex;
     }
+    /* #last{
+      padding-left: 30px;
+    } */
 }
 @media screen and (max-width: 600px) {
   .navbar.responsive {position: relative;}
@@ -717,7 +720,7 @@ hr {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 20px;
+  padding: 20px 20px 20px 0;
   box-sizing: border-box;
 }
 
@@ -738,3 +741,8 @@ hr {
   height: auto;
   margin-bottom: 10px;
 }
+/* .container{
+  background-color: #ffffff;
+ border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
