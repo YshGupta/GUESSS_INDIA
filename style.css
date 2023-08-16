@@ -4,6 +4,9 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
+h1{
+  color: green;
+}
 
 body{
   margin: 0;
@@ -288,9 +291,10 @@ hr {
 
 .card_text p {
   margin: 0 0 24px;
-  /* font-size: 14px; */
+  /* font-size: 1.5rem; */
   line-height: 1.5;
   text-align: center;
+
 }
 
 .card_text p:last-child {
@@ -598,6 +602,10 @@ hr {
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
+
+    .container{
+      display: flex'
+    }
 }
 @media screen and (max-width: 600px) {
   .navbar.responsive {position: relative;}
@@ -662,7 +670,7 @@ hr {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -671,6 +679,24 @@ hr {
   position: relative; /* Position relative for the .custom-underline */
   display: inline-block; /* Make the .custom-underline behave like a block-level element */
   line-height: 1.5; /* Adjust line height to control the distance */
+  color: green;
+}
+
+.custom-underline1 {
+  color: green;
+  position: relative; /* Position relative for the .custom-underline */
+  display: inline-block; /* Make the .custom-underline behave like a block-level element */
+  left: 40px;
+  line-height: 1.5; /* Adjust line height to control the distance */
+}
+
+.custom-underline1::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -2px; /* Adjust the distance from the text */
+  width: 100%;
+  border-bottom: 1px solid #000; /* The underline style */
 }
 
 .custom-underline::after {
@@ -680,4 +706,34 @@ hr {
   bottom: -2px; /* Adjust the distance from the text */
   width: 100%;
   border-bottom: 1px solid #000; /* The underline style */
+}
+
+
+/* partners */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.text {
+  flex: 0 0 60%;
+  padding-right: 20px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
