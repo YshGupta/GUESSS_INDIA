@@ -55,7 +55,7 @@
 }
 
 #lap{
-  height: 1500px;
+  height: auto;
 }
 
 .container2{
@@ -118,6 +118,7 @@
   position: relative; /* Position relative for the .custom-underline */
   display: inline-block; /* Make the .custom-underline behave like a block-level element */
   line-height: 1.5; /* Adjust line height to control the distance */
+  color: green;
 }
 
 .custom-underline::after {
@@ -126,7 +127,7 @@
   left: 0;
   bottom: -2px; /* Adjust the distance from the text */
   width: 100%;
-  border-bottom: 1px solid #000; /* The underline style */
+  border-bottom: 1px solid green; /* The underline style */
 }
 
 
