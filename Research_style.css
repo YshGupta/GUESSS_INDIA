@@ -43,6 +43,20 @@
     }
 }
 
+.yash{
+  height: 1250px;
+}
+
+#desktop1{
+  height: 700px;
+}
+#desktop{
+  height: 900px;
+}
+
+#lap{
+  height: 1500px;
+}
 
 .container2{
     background-color: #ffffff;
@@ -58,12 +72,46 @@
     .container2 {
         max-width: 90%;
     }
+    #desktop{
+      height: 1800px;
+    }
 }
 
 @media (max-width: 480px) {
+
+  #lap{
+    height: 3000px;
+  }
+  #desktop1{
+    height: 1800px;
+  }
+  #desktop{
+    height: 1800px;
+  }
     .container2 {
         padding: 10px;
     }
+
+    .footing{
+      padding-top: 2%;
+      /* position: fixed; */
+      bottom:0;
+      width: 100%;
+    
+    }
+
+    
+
+    
+}
+
+
+.footing{
+  padding-top: 2%;
+  /* position: fixed; */
+  bottom:0;
+  width: 100%;
+
 }
 
 .custom-underline {
