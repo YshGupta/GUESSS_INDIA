@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="spon.css">
+<link rel="stylesheet" href="style.css">
 <title>Flex Container with Variable-sized Images</title>
 </head>
 <body>
@@ -17,6 +18,99 @@
       <img src="1.jpg" alt="Image 5" class="flex-item_spon">
     </div>
   </div>
+
+  <div class="carousel">
+    <ul class="slides">
+      <input type="radio" name="radio-buttons" id="img-1" checked />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="./Pictures/India Pic (1).png"  >
+          <h3 class="text_over_image" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt placeat et vero debitis aliquid eligendi in laboriosam veritatis dolor aspernatur.</h3>
+        </div>
+        <div class="carousel-controls">
+          <label for="img-5" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-2" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+      <input type="radio" name="radio-buttons" id="img-2" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img
+            src="./Pictures/trial/1_2.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-1" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-3" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+      <input type="radio" name="radio-buttons" id="img-3" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="./Pictures/trial/1_3_3.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-2" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-4" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-buttons" id="img-4" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="./Pictures/trial/1_4.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-3" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-5" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-buttons" id="img-5" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="./Pictures/trial/1_1.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-4" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-1" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+
+      
+      <div class="carousel-dots">
+
+
+
+        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+        <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+        <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+      </div>
+    </ul>
+    <h1>TEXT check</h1>
+  </div>
+
 
 
 <script src="script.js"></script>
